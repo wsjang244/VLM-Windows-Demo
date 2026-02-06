@@ -49,13 +49,13 @@ VLM-Windows-Demo/
 │   └── README.md
 │
 ├── hef/                        # モデルファイル（C++/Python 共通）
+│   ├── Download-Hef.ps1        # PowerShell用の.hefダウンロードスクリプト
 │   └── Qwen2-VL-2B-Instruct.hef
 │
 ├── Prompts/                    # プロンプト定義ファイル（C++/Python 共通）
 │   ├── prompt_person.json
 │   ├── prompt_phone.json
 │   ├── prompt_retail_behavior.json
-│   └── ...
 │   └── ...
 │
 ├── Videos/                     # デモ用動画ファイル

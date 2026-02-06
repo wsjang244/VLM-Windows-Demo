@@ -49,6 +49,7 @@ VLM-Windows-Demo/
 │   └── README.md
 │
 ├── hef/                        # Model file (shared by C++/Python)
+│   ├── Download-Hef.ps1        # .hef download script for PowerShell
 │   └── Qwen2-VL-2B-Instruct.hef
 │
 ├── Prompts/                    # Prompt definition files (shared by C++/Python)
