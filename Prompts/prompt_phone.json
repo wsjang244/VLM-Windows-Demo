@@ -1,0 +1,12 @@
+{
+    "use_cases": {
+        "Package delivery": {
+            "options": [
+                "yes"
+            ],
+            "details": "Example: Image shows person talking on phone. Output: yes. Now: is there a person holding a phone next to their ear? Output 'yes' or 'no' only."
+        }
+    },
+    "hailo_system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+    "hailo_user_prompt": "{details}"
+}

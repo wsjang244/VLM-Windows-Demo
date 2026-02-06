@@ -1,0 +1,12 @@
+{
+    "use_cases": {
+        "Hat": {
+            "options": [
+                "yes"
+            ],
+            "details": "Example: Image shows person wearing a hat. Output: yes. Now: Is there a person wearing a hat? Output 'yes' or 'no' only."
+        }
+    },
+    "hailo_system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+    "hailo_user_prompt": "{details}"
+}

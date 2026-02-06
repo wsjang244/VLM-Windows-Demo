@@ -1,0 +1,15 @@
+{
+    "use_cases": {
+        "Shelf stock": {
+            "options": ["full", "low", "empty"],
+            "keywords": {
+                "empty":  ["empty", "bare", "nothing", "no products", "cleared", "0%", "zero", "completely empty", "no items", "vacant", "none"],
+                "low":    ["low", "few", "sparse", "gaps", "some", "partially", "needs restock", "limited", "almost empty", "not many", "20%", "30%", "40%", "50%"],
+                "full":   ["full", "stocked", "plenty", "well-stocked", "filled", "packed", "many", "lots", "abundant", "100%", "90%", "80%", "70%", "60%"]
+            },
+            "details": "Look at the shelves. Are products visible on them? Describe in under 10 words."
+        }
+    },
+    "hailo_system_prompt": "You are checking if store shelves have products or are empty. Describe what you actually see.",
+    "hailo_user_prompt": "{details}"
+}

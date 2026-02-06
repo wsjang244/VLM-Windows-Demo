@@ -1,0 +1,13 @@
+{
+    "use_cases": {
+        "Person detection": {
+            "options": [
+                "person detected",
+                "no person"
+            ],
+            "details": "Look at the image. Is there a person visible? Answer with exactly one of: 'person detected' or 'no person'. Nothing else."
+        }
+    },
+    "hailo_system_prompt": "You are a vision assistant. You answer image analysis questions with short exact phrases only. No explanations.",
+    "hailo_user_prompt": "{details}"
+}

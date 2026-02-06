@@ -1,0 +1,15 @@
+{
+    "use_cases": {
+        "Retail behavior": {
+            "options": ["empty", "pickup", "browsing"],
+            "keywords": {
+                "empty":    ["no person", "nobody", "no one", "no people", "no human", "no customer", "empty aisle", "empty store"],
+                "pickup":   ["grabbing", "picking", "reaching", "selecting", "examining", "handling", "reading", "opening", "inspecting", "checking", "holding", "taking", "comparing", "choosing", "touching", "shopping for"],
+                "browsing": ["person", "someone", "man", "woman", "people", "customer", "shopper", "walking", "standing", "looking", "pushing", "cart", "basket", "carrying", "aisle", "strolling", "browsing", "shopping", "trolley"]
+            },
+            "details": "Describe what the person is doing in this store camera image in under 10 words. Don't say 'No person visible' when you can find any person. If no person is visible in the image, say 'No person visible'."
+        }
+    },
+    "hailo_system_prompt": "You are a store camera. Describe what you see briefly specilally the person's action.",
+    "hailo_user_prompt": "{details}"
+}
