@@ -23,11 +23,11 @@ C++ 版（推奨）と Python 版の2つの実装があり、同じプロンプ�
 
 | 項目 | 要件 |
 |------|------|
-| OS | Windows 11（動作確認済み） |
-| AI プロセッサ | Hailo-10H |
+| OS | Windows 10, 11（動作確認済み） |
+| AI プロセッサ | Hailo-10H 8GB |
 | 接続方法 | デスクトップ PC の PCIe / M.2 スロット、またはノート PC の Thunderbolt に変換アダプター経由 |
 | HailoRT | 5.2.0 |
-| モデル | Qwen2-VL-2B-Instruct（HEF 形式） |
+| モデル | Qwen2-VL-2B-Instruct |
 
 ---
 

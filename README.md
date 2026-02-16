@@ -23,11 +23,11 @@ Two implementations are available: C++ (recommended) and Python, both sharing th
 
 | Item | Requirement |
 |------|-------------|
-| OS | Windows 11 (tested) |
-| AI Processor | Hailo-10H |
+| OS | Windows 10, 11 (tested) |
+| AI Processor | Hailo-10H 8GB |
 | Connection | PCIe / M.2 slot on desktop PC, or Thunderbolt adapter for laptops |
 | HailoRT | 5.2.0 |
-| Model | Qwen2-VL-2B-Instruct (hef format) |
+| Model | Qwen2-VL-2B-Instruct |
 
 ---
 
