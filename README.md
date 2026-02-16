@@ -49,7 +49,6 @@ VLM-Windows-Demo/
 │   └── README.md
 │
 ├── hef/                        # Model file (shared by C++/Python)
-│   ├── Download-Hef.ps1        # .hef download script for PowerShell
 │   └── Qwen2-VL-2B-Instruct.hef
 │
 ├── Prompts/                    # Prompt definition files (shared by C++/Python)
@@ -76,10 +75,11 @@ Download and install the following software:
 | Software | Required Version | Download Link |
 |---|---|---|
 | HailoRT | 5.2.0 | [Hailo Developer Zone](https://hailo.ai/developer-zone/software-downloads/) (registration required) |
-| Build Tools for Visual Studio | 2019 or later | [Microsoft](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022) |
+| Build Tools for Visual Studio | 17.X | [Microsoft](https://learn.microsoft.com/en-gb/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) |
 | CMake | 3.16 or later | [cmake.org](https://cmake.org/download/) |
 | OpenCV | 4.x | [opencv.org](https://opencv.org/releases/) |
 | Python | 3.10 | [python.org](https://www.python.org/downloads/release/python-31011/) |
+| Git | 2.47.X or later | [gitforwindows.org](https://gitforwindows.org/) |
 
 ### 2. Verify Hailo-10H Connection
 

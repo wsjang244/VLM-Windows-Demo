@@ -49,13 +49,13 @@ VLM-Windows-Demo/
 │   └── README.md
 │
 ├── hef/                        # モデルファイル（C++/Python 共通）
-│   ├── Download-Hef.ps1        # PowerShell用の.hefダウンロードスクリプト
 │   └── Qwen2-VL-2B-Instruct.hef
 │
 ├── Prompts/                    # プロンプト定義ファイル（C++/Python 共通）
 │   ├── prompt_person.json
 │   ├── prompt_phone.json
 │   ├── prompt_retail_behavior.json
+│   └── ...
 │   └── ...
 │
 ├── Videos/                     # デモ用動画ファイル
@@ -76,10 +76,12 @@ VLM-Windows-Demo/
 | ソフトウェア | 必要バージョン | ダウンロードリンク |
 |---|---|---|
 | HailoRT | 5.2.0 | [Hailo Developer Zone](https://hailo.ai/developer-zone/software-downloads/) （要登録） |
-| Build Tools for Visual Studio | 2019 以降 | [Microsoft](https://visualstudio.microsoft.com/ja/downloads/#build-tools-for-visual-studio-2022) |
+| Build Tools for Visual Studio | 2019 以降(17.X) | [Microsoft](https://learn.microsoft.com/en-gb/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) |
 | CMake | 3.16 以降 | [cmake.org](https://cmake.org/download/) |
 | OpenCV | 4.x | [opencv.org](https://opencv.org/releases/) |
 | Python | 3.10 | [python.org](https://www.python.org/downloads/release/python-31011/) |
+| Git | 2.47.X 以降| [gitforwindows.org](https://gitforwindows.org/) |
+
 
 > **注意**: `Install/` フォルダーにインストーラーの例が含まれていますが、ライセンスの関係で GitHub には公開していません。上記リンクから各自ダウンロードしてください。
 
@@ -121,7 +123,7 @@ curl.exe -O "https://dev-public.hailo.ai/v5.2.0/blob/Qwen2-VL-2B-Instruct.hef"
 | ソフトウェア | 必要バージョン | 備考 |
 |---|---|---|
 | HailoRT | 5.2.0 | |
-| Build Tools for Visual Studio | 2019 以降 | 「C++ によるデスクトップ開発」を選択 |
+| Build Tools for Visual Studio | 2019 以降(17.X) | 「C++ によるデスクトップ開発」を選択 |
 | CMake | 3.16 以降 | |
 | OpenCV | 4.x | |
 

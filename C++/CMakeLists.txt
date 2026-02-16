@@ -30,6 +30,10 @@ if(WIN32)
     )
 endif()
 
+if (MSVC)
+  target_compile_options(vlm_app PRIVATE /utf-8)
+endif()
+
 target_link_libraries(vlm_app PRIVATE
     HailoRT::libhailort
     ${OpenCV_LIBS}
