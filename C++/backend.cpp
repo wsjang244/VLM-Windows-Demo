@@ -319,7 +319,7 @@ void Backend::worker_func() {
     // -------------------------------------------------------
     std::cout << "[Backend] Loading VLM: " << m_hef_path << std::endl;
     try {
-        hailort::genai::VLMParams vlm_params(m_hef_path);
+        hailort::genai::VLMParams vlm_params(m_hef_path, true);
         auto vr = hailort::genai::VLM::create(vdevice, vlm_params);
         if (!vr) {
             std::cerr << "[Backend] VLM::create failed (" << (int)vr.status() << ")" << std::endl;
